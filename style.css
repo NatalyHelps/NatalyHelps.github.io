@@ -1,0 +1,72 @@
+body {
+     background: #fffff1;
+     color: #000;
+     font-family: sans-serif;
+}
+ h1 {
+     margin: 0;
+     color: #B3A234;
+     text-align: center;
+     letter-spacing: 16px;
+     padding: 2% 2%;
+     margin: 1% 1%;
+
+       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+ #container {
+     margin: 10% auto;
+}
+ #introduction {
+     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+     background: #000;
+     width: 700px;
+     font-family: Montserrat;
+     font-size: 150%;
+     margin: 5% auto;
+     background: #fff;
+     text-align: left;
+}
+ #sitetag {
+     background: #fff197;
+     margin: 0;
+     font-family: Montserrat;
+     text-align: center;
+}
+ #tagline {
+     background: #fff197;
+     font-family: courier new;
+     margin: 0;
+}
+ #sitebody {
+     background: #ffffff;
+     font-family: courier new;
+     text-align: center;
+     border-top: dashed 10px #fff197;
+     background-image: repeating-linear-gradient(white 0px, white 24px, #fff197 25px);
+     color:grey;
+     letter-spacing: 1px;
+     font-size: 23px;
+}
+ li {
+     color: #BAA24A;
+     font-family: courier new;
+     display: inline;
+    padding-right: 6%;
+     font-weight: 600;
+
+
+}
+ a{
+     text-decoration: line-through;
+     text-transform: lowercase;
+     color: #BAA24A;
+     font-family: courier new;
+     display: inline;
+     text-align: left;
+     letter-spacing: 3px;
+}
+ a:hover {
+     font-family: courier;
+     display: inline;
+     letter-spacing: 5px;
+}
