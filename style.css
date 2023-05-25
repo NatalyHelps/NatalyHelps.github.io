@@ -10,6 +10,7 @@ body {
      letter-spacing: 16px;
      padding: 2% 2%;
      margin: 1% 1%;
+     font-size: 200%;
 
        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -50,8 +51,9 @@ body {
  li {
      color: #BAA24A;
      font-family: courier new;
+     font-size: 90%;
      display: inline;
-    padding-right: 6%;
+     padding-right: 2%;
      font-weight: 600;
 
 
