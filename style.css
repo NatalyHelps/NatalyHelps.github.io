@@ -19,7 +19,7 @@ body {
  #introduction {
      box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
      background: #000;
-     width: 700px;
+     width: 80%;
      font-family: Montserrat;
      font-size: 150%;
      margin: 5% auto;
