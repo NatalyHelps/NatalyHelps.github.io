@@ -47,6 +47,7 @@ body {
      color:grey;
      letter-spacing: 1px;
      font-size: 23px;
+      overflow-wrap: break-word;
 }
  li {
      color: #BAA24A;
@@ -71,4 +72,7 @@ body {
      font-family: courier;
      display: inline;
      letter-spacing: 5px;
+}
+svg {
+width: 3%;
 }
