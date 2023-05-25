@@ -1,5 +1,5 @@
 body {
-     background: #fffff1;
+     background: #fff;
      color: #000;
      font-family: sans-serif;
 }
@@ -43,8 +43,10 @@ body {
      font-family: courier new;
      text-align: center;
      border-top: dashed 10px #fff197;
-     background-image: repeating-linear-gradient(white 0px, white 24px, #B3A234 25px);
-     color:grey;
+     background-image: repeating-linear-gradient(#fffff1 0px, #fffff1 24px, #D9D9BF 25px);
+     /*928219*/
+     /*B6A537*/
+     color:#B3A234;
      letter-spacing: 1px;
      font-size: 23px;
       overflow-wrap: break-word;
