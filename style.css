@@ -11,8 +11,7 @@ body {
      padding: 2% 2%;
      margin: 1% 1%;
      font-size: 200%;
-
-       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
  #container {
      margin: 10% auto;
@@ -43,13 +42,13 @@ body {
      font-family: courier new;
      text-align: center;
      border-top: dashed 10px #fff197;
-     background-image: repeating-linear-gradient(#fffff1 0px, #fffff1 24px, #B8B88F 25px);
+     background-image: repeating-linear-gradient(#fffff1 0px, #fffff1 24px, rgba(184, 184, 143, .75) 25px);
      /*928219*/
      /*B6A537*/
      color:#B3A234;
      letter-spacing: 1px;
      font-size: 23px;
-      overflow-wrap: break-word;
+     overflow-wrap: break-word;
 }
  li {
      color: #BAA24A;
@@ -76,5 +75,5 @@ body {
      letter-spacing: 5px;
 }
 svg {
-width: 3%;
+     width: 3%;
 }
