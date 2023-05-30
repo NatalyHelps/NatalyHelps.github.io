@@ -67,7 +67,7 @@ body {
 
 }
 
- a:not(.natalyhelps){
+a:not(.natalyhelps){
      text-decoration: line-through;
      text-transform: lowercase;
      color: #BAA24A;
