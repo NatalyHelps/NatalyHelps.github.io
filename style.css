@@ -13,6 +13,12 @@ body {
      font-size: 200%;
      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+.natalyhelps {
+     margin: 0;
+     color: #B3A234;
+     text-decoration: none;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
  #container {
      margin: 10% auto;
 }
@@ -60,7 +66,8 @@ body {
 
 
 }
- a{
+
+ a:not(.natalyhelps){
      text-decoration: line-through;
      text-transform: lowercase;
      color: #BAA24A;
@@ -69,7 +76,7 @@ body {
      text-align: left;
      letter-spacing: 3px;
 }
- a:hover {
+ a:not(.natalyhelps):hover {
      font-family: courier;
      display: inline;
      letter-spacing: 5px;
