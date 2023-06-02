@@ -7,11 +7,12 @@ body {
      margin: 0;
      color: #B3A234;
      text-align: center;
-     letter-spacing: 16px;
+     letter-spacing: 17px;
      padding: 2% 2%;
      margin: 1% 1%;
      font-size: 200%;
      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+     overflow: hidden;
 }
 .natalyhelps {
      margin: 0;
@@ -67,19 +68,19 @@ body {
 
 }
 
-a:not(.natalyhelps){
-     text-decoration: line-through;
+ a:not(.natalyhelps){
+     text-decoration: none;
      text-transform: lowercase;
      color: #BAA24A;
      font-family: courier new;
      display: inline;
      text-align: left;
-     letter-spacing: 3px;
+     letter-spacing: 2px;
 }
  a:not(.natalyhelps):hover {
      font-family: courier;
      display: inline;
-     letter-spacing: 5px;
+     letter-spacing: 4px;
 }
 svg {
      width: 3%;
