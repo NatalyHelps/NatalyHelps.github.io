@@ -41,12 +41,12 @@ h2 {
 }
 
  #container {
-     margin: 10% auto;
+     margin: 5% auto;
 
 }
  #introduction {
      box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
-     width: 85%;
+     width: 80%;
      font-family: Montserrat;
      font-size: 150%;
      margin: 5% auto;
@@ -135,7 +135,7 @@ svg {
      justify-content: center;
      align-items: center;
      margin: auto;
-     border: 1px solid grey;
+     border: 5px solid grey;
     /*this contains the post-its*/
 }
 .postitprojects ul,li{
