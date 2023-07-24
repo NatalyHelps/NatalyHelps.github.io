@@ -40,9 +40,8 @@ letter-spacing: 5px;
 }
  #introduction {
      box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
-     background: #000;
      width: 80%;
-     font-family: Montserrat;
+     font-family: 'Poiret One';
      font-size: 150%;
      margin: 5% auto;
      background: #fff;
