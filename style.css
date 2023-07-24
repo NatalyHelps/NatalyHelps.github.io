@@ -130,7 +130,9 @@ svg {
     overflow: hidden;
        background-image: url('images/cork.jpg');
      width: 90%; 
-     margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
     /*this contains the post-its*/
 }
 .postitprojects ul,li{
