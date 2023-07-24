@@ -6,7 +6,7 @@ body {
      background: #fff;
      color: #000;
      font-family: sans-serif;
-             background-image: url('images/wood.jpeg');
+     background-image: url('images/wood.jpeg');
 }
 /* h1 only used for top title*/
  h1 {
@@ -35,9 +35,9 @@ h3 {
 
 /*h2 is used for page titles*/
 h2 {
-margin: 0;
-padding: 0;
-letter-spacing: 5px;
+     margin: 0;
+     padding: 0;
+     letter-spacing: 5px;
 }
 
  #container {
@@ -46,7 +46,7 @@ letter-spacing: 5px;
 }
  #introduction {
      box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
-     width: 80%;
+     width: 85%;
      font-family: Montserrat;
      font-size: 150%;
      margin: 5% auto;
@@ -72,10 +72,10 @@ letter-spacing: 5px;
      color: #BAA24A;
      font-family: courier new;
      font-size: 100%;
-display: inline;
- padding-right: 2%;
-overflow: hidden;
-     font-weight: 600;
+      display: inline;
+      padding-right: 2%;
+      overflow: hidden;
+      font-weight: 600;
 
  
 }
@@ -135,7 +135,7 @@ svg {
      justify-content: center;
      align-items: center;
      margin: auto;
-     border: 1px grey;
+     border: 1px solid grey;
     /*this contains the post-its*/
 }
 .postitprojects ul,li{
