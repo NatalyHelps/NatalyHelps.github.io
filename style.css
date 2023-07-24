@@ -128,13 +128,14 @@ svg {
 }
 /* POST IT STYLE*/
 .postitprojects {
-    overflow: hidden;
-       background-image: url('images/cork.jpg');
+     overflow: hidden;
+     background-image: url('images/cork.jpg');
      width: 90%; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
      margin: auto;
+     border: 1px grey;
     /*this contains the post-its*/
 }
 .postitprojects ul,li{
