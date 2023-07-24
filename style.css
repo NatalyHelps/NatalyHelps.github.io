@@ -20,6 +20,10 @@ body {
      overflow: hidden;
 }
 
+h3 {
+     font-family: 'Poiret One';
+}
+
 /*.natalyhelps is the top title link class between the h1*/
 .natalyhelps {
      margin: 0;
