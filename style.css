@@ -167,6 +167,7 @@ svg {
   transform:rotate(4deg);
   position:relative;
   top:5px;
+background: #cef0cc;
 }
 .postitprojects ul li:nth-child(3n) a{
   transform:rotate(-3deg);
