@@ -21,7 +21,7 @@ body {
 }
 
 h3 {
-     font-family: 'Poiret One';
+     font-family: courier new;
 }
 
 /*.natalyhelps is the top title link class between the h1*/
@@ -45,7 +45,7 @@ letter-spacing: 5px;
  #introduction {
      box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
      width: 80%;
-     font-family: 'Poiret One';
+     font-family: Montserrat;
      font-size: 150%;
      margin: 5% auto;
      background: #fff;
