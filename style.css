@@ -6,6 +6,7 @@ body {
      background: #fff;
      color: #000;
      font-family: sans-serif;
+             background-image: url('./images/wood.jpg');
 }
 /* h1 only used for top title*/
  h1 {
@@ -41,7 +42,7 @@ letter-spacing: 5px;
 
  #container {
      margin: 10% auto;
-        background-image: url('./images/wood.jpg');
+        background-image: url('images/wood.jpg');
 }
  #introduction {
      box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
