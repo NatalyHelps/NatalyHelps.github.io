@@ -79,7 +79,7 @@ overflow: hidden;
 
  
 }
-
+/* The main body of the site that contains the other content */
  #sitebody {
      background: #ffffff;
      font-family: courier new;
@@ -92,6 +92,7 @@ overflow: hidden;
      letter-spacing: 1px;
      font-size: 23px;
      overflow-wrap: break-word;
+     padding-bottom: 5%;
    
 }
 
