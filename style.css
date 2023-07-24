@@ -128,6 +128,7 @@ svg {
 /* POST IT STYLE*/
 .postitprojects {
     overflow: hidden;
+       background-image: url('images/cork.jpg');
     /*this contains the post-its*/
 }
 .postitprojects ul,li{
