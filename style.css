@@ -114,6 +114,15 @@ h2 {
    
 }
 
+/* media queries for home page */
+
+@media only screen and (min-width: 321px) {
+  .natalyhelps {
+    font-size: .7em;
+    letter-spacing: normal;
+  }
+}
+
 /*a:not(.natalyhelps, .postitlink)*/
 
 #tagline a{
