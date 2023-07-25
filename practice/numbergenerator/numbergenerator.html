@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Number Generator</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1" >
+      <link href="numbergenerator.css" rel="stylesheet">
+   </head>
+   <body>
+     
+     <div class="navbar">
+  <a href="#top">Project</a>
+  <a href="#code1">Code</a>
+   <a href="#steps">Steps</a>
+  <a href="#definitions">Functions</a>
+    </div>
+
+      <h1 id="top">PROJECT - 
+        Number generator</h1>
+      <p>Create this number generator with JavaScript, HTML, and CSS! </p>
+      <!-- <p>This will teach you:</p>
+         <ul>
+           <li><code>Math.floor()</code></li>
+           <li><code>Math.random()</code></li>
+           </ul> -->
+
+      <div id='project'>
+         <button id='btn'>New Number</button>
+         <div id='output'>Your number will generate here!</div>
+      </div>
+      <hr />
+      <!--endcontainer-->
+
+
+      <div class="code" id="code1">
+
+         <h4>JavaScript Code</h4>
+         Save this as script.js
+         <textarea>const btn = document.getElementById('btn');
+const output = document.getElementById('output');
+
+
+btn.addEventListener('click', () =&gt; {
+  let randomNumber = Math.floor(Math.random() * 100);
+  output.innerHTML = randomNumber;
+});
+</textarea>
+      </div>
+      <a href="#top" class="backtotop">&gt;&gt;Back To Top</a>
+      <div class="code">
+         <h4>HTML Code</h4>
+         <textarea>&lt;div id='container'&gt;
+  &lt;button id='btn'&gt;New Number&lt;/button&gt;
+   &lt;div id='output'&gt;Your number will generate here!&lt;/div&gt;
+  &lt;/div&gt;
+
+        &lt;script src="script.js"&gt;&lt;/script&gt;
+
+</textarea>
+      </div>
+      <a href="#top" class="backtotop">&gt;&gt;Back To Top</a>
+      <div class='definitions' id="definitions">
+        <h3>Function Definitions</h3>
+         <dl>
+            <dt><code>Math.floor()</code></dt>
+            <dd>Rounds a number down to the nearest integer.</dd>
+            <br/>
+            <dt><code>Math.random()</code></dt>
+            <dd>Generates a number between 0-1. This includes 0, but does not include 1.</dd>
+            <br/>
+            <dt><code>Math.floor(Math.random())</code></dt>
+            <dd><code>Math.random()</code> randomly returns 0 or a decimal number. <code>Math.floor()</code> then takes this decimal and rounds it down to the nearest integer.</dd>
+         </dl>
+      </div>
+      <a href="#top" class="backtotop">&gt;&gt;Back To Top</a>
+      <script src="numbergenerator.js"></script>
+   </body>
+</html>
