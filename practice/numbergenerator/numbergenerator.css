@@ -1,0 +1,108 @@
+body {
+  background: #fff;
+  color: #000;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 1em;
+ 
+}
+textarea {
+  width: 70%;
+  height: 200px;
+  background-color: pink;
+  margin: 1%;
+ }
+h1 {
+  padding-top: 30px;
+
+}
+p {
+  font-size: 1em;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+dd {
+  font-size: .8em;
+}
+.navbar {
+  overflow: hidden;
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  margin: 2px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 3px;
+  background: rose;
+  
+}
+
+.navbar a:hover {
+  background: silver;
+  color: black;
+  cursor: pointer;
+}
+
+.backtotop {
+
+
+}
+
+#project {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: silver;
+
+}
+
+#btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 1%;
+  font-size: 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  padding: 10px 20px;
+  
+}
+
+#output {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.code {
+  display: grid;
+  margin: 4%;
+  place-items: center;
+}
+
+.definitions {
+   display: grid;
+   margin: 20px;
+
+}
+h3 {
+
+  text-transform: uppercase;
+
+}
