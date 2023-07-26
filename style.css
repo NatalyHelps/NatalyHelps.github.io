@@ -297,4 +297,14 @@ background: #cef0cc;
 
 }
 }
+ @media only screen and (max-width: 600px) {
+.tape {
+  transform: scale(.9);
+
+}
+.tape2 {
+    transform: scale(.9);
+}
+}
+
 
