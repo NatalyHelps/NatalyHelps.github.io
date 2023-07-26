@@ -151,9 +151,9 @@ i.fa {
 }
  #sitebody {
     /*main body under the links*/
-     display: grid;
+    /* display: grid;*/
      align-items: start;
-     grid-template-columns: repeat(2, 1fr);
+    /*   grid-template-columns: repeat(2, 1fr);*/
      background: #ffffff;
      font-family: courier new;
      text-align: center;
