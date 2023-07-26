@@ -395,6 +395,7 @@ i.fa {
     }
      .paper {
          max-width: 400px;
+          text-indent: 3em;
     }
      #startcontent{
          width: 100%;
