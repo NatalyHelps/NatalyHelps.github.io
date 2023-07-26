@@ -297,14 +297,16 @@ background: #cef0cc;
 
 }
 }
- @media only screen and (max-width: 500px) {
-.tape {
-  transform: scale(.9);
 
+ @media only screen and (max-width: 600px) {
+.tape, .tape2{
+  transform: scale(.9);
 }
-.tape2 {
-    transform: scale(.9);
+#introduction {
+  width: 95%;
 }
+
+
 }
 
 
