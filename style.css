@@ -303,7 +303,7 @@ background: #cef0cc;
   width: 95%;
 }
 .tape {
-   transform: scale(.7) rotate(10deg);
+   transform: scale(.9) rotate(10deg);
   }
 .tape2 {
    transform: scale(.7) rotate(-10deg);
