@@ -299,14 +299,15 @@ background: #cef0cc;
 }
 
  @media only screen and (max-width: 600px) {
-.tape, .tape2{
-  transform: scale(.9);
-}
 #introduction {
   width: 95%;
 }
-
-
+.tape {
+   transform: scale(.7) rotate(10deg);
+  }
+.tape2 {
+   transform: scale(.7) rotate(-10deg);
+  }
 }
 
 
