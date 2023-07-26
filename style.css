@@ -290,5 +290,11 @@ background: #cef0cc;
   background-position: 100% 100%;
   right: -.2em;
 }
+ @media only screen and (max-width: 600px) {
+.natalyhelps {
+  font-size: .6em;
+  letter-spacing: normal;
 
+}
+}
 
