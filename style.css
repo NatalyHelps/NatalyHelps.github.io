@@ -404,4 +404,55 @@ i.fa {
          margin-left: 10%;
     }
 }
+
+
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 80%;
+  font-family: courier, monospace;
+  outline: 1px dashed white;
+  background: white;
+
+}
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  background: white;
+  width: auto;
+    
+}
+.list li:hover {
+  background-color: #f0f0f0;
+
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+   
+}
+
+ .list li:nth-child(even){
+   background: #fffff1;
+ }
+
+
+ .corkboard {
+     background-image: url('http://natalyhelps.github.io/images/cork.jpg');
+     width: 90%;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     border: 5px solid grey;
+    /*this contains the note*/
+}
+
+
  
