@@ -4,6 +4,7 @@ body {
   margin: auto;
   font-family: sans-serif;
   font-size: 1em;
+
  
 }
 textarea {
@@ -13,7 +14,8 @@ textarea {
   margin: 1%;
  }
 h1 {
-  padding-top: 30px;
+
+
 
 }
 p {
@@ -28,26 +30,30 @@ dd {
   font-size: .8em;
 }
 .navbar {
+  display: flex;
+  width: 100%;
   overflow: hidden;
   background-color: pink;
   position: sticky;
-  
   top: 0;
-  width: 100%;
+  align-items: baseline;
+  flex-wrap: wrap;
+
 }
 
 .navbar a {
   float: left;
-  display: block;
   color: #000;
   margin: 2px;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 20px;
   text-decoration: none;
   font-size: 17px;
   letter-spacing: 3px;
-  background: rose;
+  background: ;
+  flex-wrap: wrap;
   
+ 
 }
 
 .navbar a:hover {
