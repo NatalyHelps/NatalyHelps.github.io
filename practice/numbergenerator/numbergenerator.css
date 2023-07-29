@@ -30,7 +30,8 @@ dd {
 .navbar {
   overflow: hidden;
   background-color: pink;
-  position: fixed;
+  position: sticky;
+  
   top: 0;
   width: 100%;
 }
