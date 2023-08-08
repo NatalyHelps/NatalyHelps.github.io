@@ -341,8 +341,7 @@ i.fa {
          width: 95% ;
          text-align: left;
     }
-      body {
-      background-size: fill;}
+
 }
  @media only screen and (min-width: 650px) {
      #introduction {
