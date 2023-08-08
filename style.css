@@ -13,8 +13,6 @@ i.fa {
      border: 1px solid #ddd;
      background-size: cover;
      background-clip: content-box;
-    /*background-color: #f1f1f1;
-    */
      box-sizing: border-box;
      position: relative;
      margin: auto;
@@ -53,30 +51,14 @@ i.fa {
      box-shadow: 0px -7px 6px -9px black;
      transform: rotate(135deg);
 }
- .dot1 {
-     height: 25px;
-     width: 25px;
-     background-color: #bbb;
-     border-radius: 50%;
-     display: inline-block;
-}
- .dot2 {
-     height: 25px;
-     width: 25px;
-     background-color: #bbb;
-     border-radius: 50%;
-     display: inline-block;
-     float: right;
-}
+
  * {
 }
  body {
-     background: #fff;
      color: #000;
      font-family: sans-serif;
      background-image: url('http://natalyhelps.github.io/images/wood.jpeg');
-   
-}
+   }
 /* h1 only used for top title*/
  h1 {
      margin: 0;
