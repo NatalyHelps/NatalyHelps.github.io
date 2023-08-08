@@ -75,7 +75,7 @@ i.fa {
      color: #000;
      font-family: sans-serif;
      background-image: url('http://natalyhelps.github.io/images/wood.jpeg');
-     background-size: contain;
+   
 }
 /* h1 only used for top title*/
  h1 {
@@ -312,7 +312,8 @@ i.fa {
      right: -.2em;
 }
 
-/*Media Queries*/
+/* Media Queries */
+
  @media only screen and (max-width: 600px) {
      .natalyhelps {
          font-size: .6em;
