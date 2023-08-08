@@ -75,7 +75,7 @@ i.fa {
      color: #000;
      font-family: sans-serif;
      background-image: url('http://natalyhelps.github.io/images/wood.jpeg');
-     background-size: cover;
+     background-size: fill;
 }
 /* h1 only used for top title*/
  h1 {
