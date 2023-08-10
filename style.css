@@ -2,9 +2,12 @@ i.fa {
      font-size: 1em;
 }
  #startcontent {
-     text-align: left;
-     width: 100%;
-     margin-left: 5% ;
+         width: 90%;
+         font-size: 2.2em;
+         text-align: left;
+          padding: 5%;
+
+
 }
 
  body {
@@ -61,6 +64,8 @@ i.fa {
      margin: 3% auto;
      background: #fffff1;
      text-align: left;
+
+
 }
  #sitetag {
     /*these are where the tape links are*/
@@ -70,6 +75,7 @@ i.fa {
      text-align: center;
 }
  #tagline {
+  
      background: #fff197;
      font-family: courier new;
      margin: 0;
@@ -85,16 +91,17 @@ i.fa {
      overflow: hidden;
      font-weight: 600;
 }
- #sitebody {
+ #contentbody {
     /*main body under the links*/
+
     /* display: grid;*/
      align-items: start;
     /*   grid-template-columns: repeat(2, 1fr);*/
      background: #ffffff;
      font-family: courier new;
      text-align: center;
-    /* border-top: dashed 10px #fff197;
-    */
+
+    
      background-image: repeating-linear-gradient(#fffff1 0px, #fffff1 24px, rgba(184, 184, 143, .75) 25px);
     /*928219*/
     /*B6A537*/
@@ -274,8 +281,10 @@ i.fa {
          top: 5px;
     }
      #startcontent{
-         width: 95% ;
+         width: 90%;
+         font-size: 1.2em;
          text-align: left;
+          padding: 5%;
     }
 
 }
@@ -303,10 +312,10 @@ i.fa {
          font-size: 1.5em;
     }
      #startcontent{
+         width: 90%;
+         font-size: 2.2em;
          text-align: left;
-         font-size: 1.5em;
-         width: 100%;
-         height: auto;
+          padding: 5%;
     }
 }
  @media only screen and (min-width: 1300px) {
@@ -324,9 +333,10 @@ i.fa {
          font-size: 1.5em;
     }
      #startcontent{
-         font-size: 1.5em;
+         width: 90%;
+         font-size: 2.2em;
          text-align: left;
-         padding-left: 10%;
+        padding: 5%;
     }
 }
  @media only screen and (min-width: 1370px) {
@@ -338,10 +348,12 @@ i.fa {
           text-indent: 3em;
     }
      #startcontent{
-         width: 100%;
-         font-size: 1.5em;
+         width: 90%;
+         font-size: 2.2em;
          text-align: left;
-         margin-left: 10%;
+          padding: 5%;
+
+        
     }
 }
 
