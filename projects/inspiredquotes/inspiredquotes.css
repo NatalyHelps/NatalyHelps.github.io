@@ -1,29 +1,32 @@
 
-
 body {
   background: url("http://natalyhelps.github.io/lotus.png"); 
   color:  #5A5A5A;
-
   background-repeat: no-repeat;
   background-position: top;
+}
 
+#backgroundcapture {
+    height: 100vh; /* Set the height to cover the viewport */
+    display: flex; /* Use flex to vertically center the content */
+    justify-content: center;
+    align-items: center;
 }
 
 #quotecontainer {
-
 background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
 height: auto;
 padding: 2%;
 margin-right: 10%;
- 
-}
+ }
+
 #quote {
 letter-spacing: 1.7px;
-font-family: cambria;
+  font-family: cambria;
   height: auto;
   width: 50%;
   text-align: center;
-margin: 1%;
+  margin: 1%;
   font-size: 1.4em;
   line-height: 1.6em;
  background-color: rgba(0, 0, 0, 0.1);
