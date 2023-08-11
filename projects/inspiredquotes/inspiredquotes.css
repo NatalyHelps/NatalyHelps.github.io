@@ -6,12 +6,6 @@ body {
   background-position: top;
 }
 
-#backgroundcapture {
-    height: 100vh; /* Set the height to cover the viewport */
-    display: flex; /* Use flex to vertically center the content */
-    justify-content: center;
-    align-items: center;
-}
 
 #quotecontainer {
 background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
