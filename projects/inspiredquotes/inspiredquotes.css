@@ -1,24 +1,64 @@
+
+
 body {
-  background: #fff;
-  color: #000;
+     background: url("https://github.com/NatalyHelps/NatalyHelps.github.io/blob/main/lotus.png?raw=true"); 
+  color:  #5A5A5A;;
+  background: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 
 }
 
-#container {
-  border: 5px solid #000;
-  height: 300px;
-  width: 500px;
+#quotecontainer {
+
+    background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+    height: auto;
+padding: 2%;
+margin-right: 10%;
+ 
+}
+#quote {
+letter-spacing: 1.7px;
+font-family: cambria;
+  height: auto;
+  width: 50%;
   text-align: center;
-  margin: 0 auto;
+margin: 1%;
+  font-size: 1.4em;
+  line-height: 1.6em;
+ background-color: rgba(0, 0, 0, 0.1);
+ padding-bottom: 10%
+ ;
+ padding-left: 5%;
+  padding-right: 5%;
 }
 
 #btn {
   margin: 50px auto;
-  font-size: 20px;
+  font-family: verdana ;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add box shadow when button is pressed */
+ color: 	#5A5A5A;
+
+     border: solid 1px   rgba(245, 93, 180, .9); /* Equivalent to #FF69B4 */;;
+    cursor: pointer;
+  font-size: 1em;
+  padding: 15px;
+    border-radius: 25px;
+   cursor: pointer;
+   letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+     background-color:  rgba(248, 96, 180, .9); /* Equivalent to #FF69B4 */
 }
 
+
+#btn:hover {
+    background-color:  rgba(245, 93, 180, 1); /* Equivalent to #FF69B4 */
+    color: 	#5A5A5A;
+    font-size: .9em;
+    letter-spacing: 2.2px;
+   
 #output {
-  margin: 25px auto;
-  color: black;
-  font-size: 26px;
+  
 }
+
