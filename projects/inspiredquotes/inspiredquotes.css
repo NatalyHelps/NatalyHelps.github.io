@@ -3,7 +3,7 @@
 body {
      background: url("https://github.com/NatalyHelps/NatalyHelps.github.io/blob/main/lotus.png?raw=true"); 
   color:  #5A5A5A;;
-  background: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 
