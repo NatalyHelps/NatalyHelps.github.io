@@ -2,6 +2,7 @@
 body {
   background-image: url("http://natalyhelps.github.io/lotus.png"); 
   background-repeat: no-repeat;
+  background-position: top; /* Position the background image at the top */
   
   color:  #5A5A5A;
  }
