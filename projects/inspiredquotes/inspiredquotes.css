@@ -1,9 +1,8 @@
 
 
 body {
-     background: url("https://github.com/NatalyHelps/NatalyHelps.github.io/blob/main/lotus.png?raw=true"); 
-  color:  #5A5A5A;;
-
+background: url("https://github.com/NatalyHelps/NatalyHelps.github.io/blob/main/lotus.png?raw=true"); 
+  color:  #5A5A5A;
   background-repeat: no-repeat;
   background-position: top;
 
@@ -11,8 +10,8 @@ body {
 
 #quotecontainer {
 
-    background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
-    height: auto;
+background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+height: auto;
 padding: 2%;
 margin-right: 10%;
  
