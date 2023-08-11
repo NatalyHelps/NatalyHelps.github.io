@@ -2,8 +2,8 @@ i.fa {
      font-size: 1em;
 }
  #startcontent {
-         width: 90%;
-         font-size: 2.2em;
+         width: 75%;
+         font-size: 2em;
          text-align: left;
           padding: 5%;
 
@@ -290,7 +290,7 @@ i.fa {
 }
  @media only screen and (min-width: 650px) {
      #introduction {
-         width: 95%;
+         width: 85%;
     }
      .paper {
          width: 70%;
@@ -320,7 +320,7 @@ i.fa {
 }
  @media only screen and (min-width: 1300px) {
      #introduction {
-         width: 85%;
+         width: 70%;
     }
      .paper {
          font-size: 1;
