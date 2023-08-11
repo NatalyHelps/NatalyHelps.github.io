@@ -1,24 +1,24 @@
 
 body {
-  background-image: url("./lotus.png"); 
-  background-repeat: no-repeat;
-  background-position: top; /* Position the background image at the top */
-  
+  background: url("http://natalyhelps.github.io/lotus.png") no-repeat top; 
   color:  #5A5A5A;
+
  }
 
 #quotecontainer {
 background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
 height: auto;
 padding: 2%;
-margin-right: 10%;
+width: auto;
+
  }
 
 #quote {
+ 
 letter-spacing: 1.7px;
   font-family: cambria;
   height: auto;
-  width: 50%;
+ width: 50%;
   text-align: center;
   margin: 1%;
   font-size: 1.4em;
@@ -28,6 +28,7 @@ letter-spacing: 1.7px;
  ;
  padding-left: 5%;
   padding-right: 5%;
+     border-radius: 5px;
 }
 
 #btn {
@@ -59,3 +60,8 @@ letter-spacing: 1.7px;
   
 }
 
+@media (min-width: 800px) {
+#quote {
+width: 90%;
+}
+}
