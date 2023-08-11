@@ -1,11 +1,8 @@
 
 body {
-  background-image: url("http://natalyhelps.github.io/lotus.png"); 
+  background: url("http://natalyhelps.github.io/lotus.png") no-repeat top; 
   color:  #5A5A5A;
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
+ }
 
 #quotecontainer {
 background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
