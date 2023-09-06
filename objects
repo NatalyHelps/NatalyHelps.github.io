@@ -1,8 +1,0 @@
-Nataly helps with Objects
-
-The Object is the building block of all JavaScript. The object prototype is how JavaScript deals with inheritance. 
-
-Objects have 3 types of properties. 
-Own properties - these are the properties you will be most familiar with. They are created directly on the object.
-Prototype properties - these properties are found through the prototype chain. If JavaScript can't find a property in your own properties, it will search up the prototype chain.
-Property Accessors - These are defined with the setter/getter functions. 
