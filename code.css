@@ -2,19 +2,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Style the <textarea> element for code */
 textarea {
   font-family: 'Courier New', Courier, monospace;
   background-color: black;
-  color: green;
+  color: limegreen;
   padding: 10px;
-  border: none;
+  width: 100%;
+  height: 300px;
+  border: 2px solid limegreen;
   outline: none;
-  resize: none; /* Prevent resizing of the textarea */
-  box-shadow: 0 0 5px rgba(0, 128, 0, 0.8); /* Add a green box shadow for a cool effect */
-}
-
-/* Optional: Add some styles for code highlighting or formatting */
-textarea::selection {
-  background-color: rgba(0, 128, 0, 0.5); /* Highlight color for selected text */
+  resize: none;
+  box-shadow: 0 0 5px rgba(0, 128, 0, 0.8);
 }
