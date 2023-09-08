@@ -15,3 +15,27 @@ it inherits properties and methods defined within that constructor.
  <li><a href="https://eloquentjavascript.net/06_object.html">EloquentJavascript.net - The Secret Life of Objects</a></li>
  <li><a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming">FreeCodeCamp.org - Object Oriented Programming</a></li>
  </ul>
+
+Code to get all properties from an object, enumerable and nonenumerable. (Prototype and Own properties)
+<textarea>
+  
+  const myObject = {
+    a: 1,
+    b: 2,
+  };
+  
+  // Get all property names (including non-enumerable) from the object and its prototype chain
+  function getAllPropertyNames(obj) {
+    const properties = [];
+    let currentObject = obj;
+    while (currentObject !== null) {
+      properties.push(...Reflect.ownKeys(currentObject));
+      currentObject = Object.getPrototypeOf(currentObject);
+    }
+    return properties;
+  }
+  
+  const allProperties = getAllPropertyNames(myObject);
+    console.log(allProperties);
+ 
+</textarea>
