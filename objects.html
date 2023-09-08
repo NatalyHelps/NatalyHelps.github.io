@@ -23,24 +23,25 @@
       <p>Code to get all properties from an object, enumerable and nonenumerable. (Prototype and Own properties)</p>
       <br />
         <textarea style="width: 400px; height: 400px;" class="code-textarea">          
-          const myObject = {
-            a: 1,
-            b: 2,
-          };
+const myObject = {
+    a: 1,
+    b: 2,
+};
           
-          // Get all property names (including non-enumerable) from the object and its prototype chain
-          function getAllPropertyNames(obj) {
-            const properties = [];
-            let currentObject = obj;
-            while (currentObject !== null) {
-              properties.push(...Reflect.ownKeys(currentObject));
-              currentObject = Object.getPrototypeOf(currentObject);
+// Get all property names (including non-enumerable) from the object and its prototype chain
+            
+function getAllPropertyNames(obj) {
+    const properties = [];
+    let currentObject = obj;
+    while (currentObject !== null) {
+        properties.push(...Reflect.ownKeys(currentObject));
+        currentObject = Object.getPrototypeOf(currentObject);
             }
             return properties;
           }
           
-          const allProperties = getAllPropertyNames(myObject);
-            console.log(allProperties);
+const allProperties = getAllPropertyNames(myObject);
+console.log(allProperties);
          
         </textarea>
     </section>
